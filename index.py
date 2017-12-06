@@ -41,7 +41,7 @@ def main():
     obj = index()
     obj.generate_index()
     x = obj.query("aaa sss")
-    if x: print(x[-1])
+    print(x[-1])
 
 if __name__ == "__main__":
     main()
